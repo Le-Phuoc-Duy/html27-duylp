@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css">
+    <title>Duy</title>
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <ul class="information">
+                <li class="information-item phone"><a href="tel: +840123456789">0123 456 789 </a></li>
+                <li class="information-item mail"><a href="mail: info@gmail.com">info@gmail.com </a></li>
+            </ul>
+            <ul class= "social">
+                <li><a href="https://facebook.com"><i class="fa fa-address-card" aria-hidden="true"></i></i></a></li>
+            </ul>
+        </div>
+        <div class = "header-nav">
+            <div class = "logo">
+                <a href="#"><img src="./logo.png" alt="business company"></a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item active">Home</li>
+                    <li class="menu-item">About</li>
+                    <li class="menu-item">Services</li>
+                    <li class="menu-item">Contact</li>
+                </ul>
+
+                <form action="#">
+                    <div class="input-group">
+                        <input type="text" name="search" placeholder="Search your">
+                        <button type="submit"><i class="fa fa-facebook-official" aria-hidden="true"></i></button>
+                    </div>
+                </form>
+            </nav>
+
+        </div>
+    </header>
+    <section id="banner">
+        <img src="" alt="">
+        <div class = "banner-content">
+            <h2> Financial company</h2>
+            <p></p>
+            <a></a>
+        </div>
+    </section>
+    <section id="welcom"></section>
+    <section id="join-with"></section>
+    <section id="team"></section>
+    <section id="services"></section>
+    <section id="client"></section>
+    <section id="about-us"></section>
+    <section id="contact"></section>
+</body>
+</html>
