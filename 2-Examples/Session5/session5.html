@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        .left{
+            float: left;
+            width: 25%;
+            margin: 0.5rem; 
+        }
+        .item{
+            border-bottom: 1px solid #ccc;
+            padding: 1.5rem;
+            display: block;
+        }
+        .right{
+            float: right;
+            width: 25%;
+            background-color: #0dcaf0;
+            margin: 0.5rem; 
+        }
+        .center{
+            margin: 0.5rem; 
+        }
+        table {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          border: 1px solid black;
+          padding: 8px;
+        }
+        .header{
+            color: blue;
+            border-bottom: 1px solid #ccc;
+            font-size: 16px;
+        }
+        .home{
+            color: #dc3535;
+            padding: 8px 16px;
+        }
+        .list{
+            padding: 8px 16px;
+        }
+        .form{
+            padding: 8px 16px;
+        }
+        .footer{
+            text-align: center;    
+            background-color: #cccccc;
+            color: white;
+            position: fixed;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <a class="home">HOME</a>
+                <a class="list">LIST</a>
+                <a class="form">FORM</a>
+            </div>
+            <div class="left">
+                <div class="item">The Drive</div>
+                <div class="item">The Walk</div>
+                <div class="item">The Return</div>
+                <div class="item">The End</div>
+            </div>
+            <div class="right">
+                <div>
+                    <h1>What?</h1>
+                    <p>The Pulpit Rock is a part of a mountain that looks like a
+                        pulpit.</p>
+                    <h1>Where?</h1>
+                    <p>The Pulpit Rock is in Norway.</p>
+                    <h1>Price?</h1>
+                    <p>The walk is free!</p>
+                </div>
+            </div>
+            <div class="center">
+                <h1>The Walk</h1>
+                <p>The walk to the Pulpit Rock will take you approximately two hours, give or take an hour depending on the weather conditions and your physical shape.</p>
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>Đặc điểm</th>
+                    </tr>
+                    <tr align="left">
+                        <th>JavaScript</th>
+                        <th>JS giúp tăng tính tương tác trên website. Các Script chạy trên các trình duyệt của người dùng thay vì từ phía server và thường được sử dụng thư viện từ bên thứ 3 nên không cần bạn phải code lại từ đầu.</th>
+                    </tr>
+                    <tr align="left">
+                        <th>HTML</th>
+                        <th>Hypertext Markup Language, đây là ngôn ngữ cơ bản và phổ biến mà bạn cần phải biết khi bắt đầu với công việc lập trình web. Dùng để xây dựng bố cục (layout) chính cho nội dung toàn bộ website.</th>
+                    </tr>
+                    <tr align="left">
+                        <th>CSS</th>
+                        <th>Cascadding Style Sheets giúp cho lập trình viên xác định style, tạo ra những ý tưởng, màu sắc, background riêng phù hợp với chủ đề của website.</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="footer">
+                <p>
+                    This web page is a part of a demonstration of fluid web design
+                made by www.w3schools.com. Resize the browser window to see the
+                content response to the resizing.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
